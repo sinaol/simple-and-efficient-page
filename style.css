@@ -1,0 +1,120 @@
+    body {
+        margin: 0;
+        text-align: center;
+        background-color: #f7f7f7;
+        user-select: none;
+    }
+    /*header*/
+    
+    header {
+        background-color: #adb5bd65;
+        padding-top: 30px;
+    }
+    
+    .header-logo-keeper {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-logo {
+        background-image: url("https://iamarey.com/wp-content/uploads/2019/04/Asset-7.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 50px;
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    
+    .header-div-keeper {
+        position: relative;
+        right: 22px;
+    }
+    
+    .header-ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .header-a {
+        list-style-type: none;
+        transition: 0.1s;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .header-a:hover {
+        color: rgb(124, 120, 6);
+        text-decoration: underline;
+    }
+    /*section*/
+    
+    section {
+        margin: 0px;
+    }
+    
+    .all-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .section-div-card {
+        margin: 40px;
+    }
+    
+    .card-image {
+        width: 200px;
+        height: 300px;
+        transition: 0.3s;
+        border-radius: 2px;
+    }
+    
+    .card-image:hover {
+        width: 205px;
+        height: 305px;
+        box-shadow: 1px 1px 10px 1px rgba(94, 94, 94, 0.501);
+    }
+    /*footer*/
+    
+    footer {
+        background-color: #9a9aaa94;
+        height: 200px;
+    }
+    
+    .footer-all-parts {
+        display: flex;
+        justify-content: space-around;
+        color: #5a5a63;
+    }
+    
+    .part {
+        text-align: left;
+    }
+    
+    .part-link {
+        text-decoration: none;
+        list-style-type: none;
+        color: #3e3e43;
+    }
+    
+    .footer-my-info {
+        background-color: #9a9aaacb;
+        color: #6c6c79;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 34px;
+    }
+    
+    .my-email {
+        text-decoration: none;
+        color: #6c6c79;
+    }
+    
+    .my-email:hover {
+        color: #42424b;
+    }
